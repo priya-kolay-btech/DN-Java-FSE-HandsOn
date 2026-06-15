@@ -1,0 +1,31 @@
+Financial Forecasting Using Recursion
+
+1. Recursion
+Recursion is a technique where a method calls itself to solve a problem.
+It simplifies problems that can be broken into smaller subproblems.
+
+2. Recursive Approach
+Future Value = Current Value × (1 + Growth Rate)^Years
+
+The recursive algorithm repeatedly applies the growth rate
+until the number of years becomes zero.
+
+3. Time Complexity
+Each recursive call decreases years by 1.
+
+T(n) = T(n-1) + O(1)
+
+Time Complexity = O(n)
+
+Space Complexity = O(n)
+because recursive calls use the call stack.
+
+4. Optimization
+The recursive solution can be optimized using:
+- Memoization
+- Dynamic Programming
+- Direct mathematical formula
+
+Future Value = Current Value × (1 + Growth Rate)^Years
+
+These approaches reduce unnecessary computations and improve performance.
