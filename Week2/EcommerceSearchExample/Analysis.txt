@@ -1,0 +1,19 @@
+Analysis of Search Algorithms
+
+1. Linear Search
+   - Best Case: O(1)
+   - Average Case: O(n)
+   - Worst Case: O(n)
+
+2. Binary Search
+   - Best Case: O(1)
+   - Average Case: O(log n)
+   - Worst Case: O(log n)
+
+Comparison:
+- Linear Search checks elements one by one.
+- Binary Search repeatedly divides the search space in half.
+- Binary Search is significantly faster for large datasets.
+
+Conclusion:
+For an e-commerce platform, Binary Search is more suitable because product catalogs can contain thousands of products. Binary Search provides faster search performance with O(log n) complexity. However, the product data must be sorted before applying Binary Search.
